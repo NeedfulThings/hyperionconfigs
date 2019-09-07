@@ -1,0 +1,3 @@
+[submodule "UDP-ESP8266/WLED"]
+	path = UDP-ESP8266/WLED
+	url = git@github.com:Aircoookie/WLED.git
