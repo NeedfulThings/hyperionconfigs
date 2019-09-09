@@ -5,7 +5,14 @@
   64 * 64 Pixel @ 60 Hz
 * **Smoothing** Linear 96ms @ Update Freq 48k
 
-## USB Arduino
+---
+
+# Get the code
+ `git clone --recurse-submodules git@github.com:NeedfulThings/hyperionconfigs.git`
+
+---
+
+# USB Arduino
 Folder *USB-ArduinoUno*
 
 * Sketch for **Arduino Uno R3 & Nano**
@@ -17,38 +24,55 @@ Folder *USB-ArduinoUno*
 * Output to **USB Port** /ttyUSB0 
 * Colororder **grb**
 
-### Install
-* copy the hyperion.config.json to your /storage/.config folder
-* Install the ino on your Arduino
+## Install
 
+###`hyperion.config.json`
+copy the `hyperion.config.json` to your `/storage/.config` folder
 
-## UDP / Network ESP8266
+###`WS2812B.ino`
+Install the `WS2812B.ino` on your Arduino
+
+---
+
+# UDP / Network ESP8266
  Folder *UDP-ESP8266*
  * Type **udp**
+ * Protocol **0**
+ * Port **19446**
+ * set to **45 LED** supports up to 490 inn hyperion mode
 
-### Install
-* copy the hyperion.config.json to your /storage/.config folder
+## Install
 
-* Install Aircoookie WLED on your ESP8266
+###`hyperion.config.json`
+Copy the `hyperion.config.json` to your `/storage/.config` folder
 
-  to get here: 
-  * https://github.com/Aircoookie/WLED/releases
+###`WLED`
+Install from the submobule folder [Aircoookie](https://github.com/Aircoookie)'s [WLED](https://github.com/Aircoookie/WLED) 
 
-  wiki here: 
-  * https://github.com/Aircoookie/WLED/wiki
+If you want to get it as binary you can find the latest relases [here](https://github.com/Aircoookie/WLED/releases)
 
-## Directly via GPIO
+Further Infos can be found in the [Wiki](htpps://github.com/Aircoookie/WLED/wiki)
+
+---
+
+# Directly via GPIO
  Folder *PI-GPIO*
  * Type **ws281x**
  * set to **45 LED**
  * Speaks PWM 0 on **GPIO12 (PIN 32)**
  * Colororder **grb**
 
-### Install
-* copy the hyperion.config.json to your /storage/.config folder
+## Install
 
-* SD Folder 
- * copy the file or at least the last lines directly to your SD Card while it's not running in the pi
-* etc Folder
- * copy the file while your pi is running in the / of your Pi
- * after reboot check with `aplay -l`if you still se a soundcard, then you might want to sudo vi /etc/modprobe.d/alsa-blacklist.conf and add (i) `blacklist snd_bcm2835` and save (:x) the file, then reboot and check again
+###`hyperion.config.json`
+copy the `hyperion.config.json` to your `/storage/.config` folder
+
+###`SD` 
+copy the `config.txt` from `SD` or at least the last lines below the `End of default configuration Block` directly to your **SD Card** while it's **NOT** running in the pi
+
+###`etc`
+copy the file `snd-blacklist.conf` to your **running** pi `/etc/modprobe.d/` - The easiest way copy etc to your / 
+
+Now **reboot** - When your pi is up again, check with `aplay -l`if you can still see a soundcard.
+
+If yes you might want to `blacklist snd_bcm2835` as last line to `/etc/modprobe.d/alsa-blacklist.conf`, reboot and check again.
