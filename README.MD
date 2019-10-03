@@ -73,6 +73,8 @@ Take a look into the USB-ArduinoNano.md file to get more informations
  * Port **19446**
  * set to **45 LED** supports up to 490 inn hyperion mode
 
+<img src="UDP-ESP8266/assets/boardcompleted2.jpg" align="left" height="221" width="300">
+
 ## Install
 
 ###`hyperion.config.json`
