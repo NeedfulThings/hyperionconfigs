@@ -1,4 +1,8 @@
-  * 3 x1000 µF capacitor
-  * Arduino Nano
-  * 470Ω Resistor 
+  v1.0
+  * 4 x1000 µF capacitor
+  * NodeMCU ESP8266
+  * 100Ω Resistor 
   * Receptacle socket for the nano
+  -----
+  v1.1
+  * 1 Switch
