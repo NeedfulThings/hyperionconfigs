@@ -1,0 +1,39 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=tvbacklightesp8266
+*Date=00:16:14
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;smtso-256-et;12.4288;-62.7747;0;Bottom;GNDIn1
+2;;smtso-256-et;129.269;-52.6147;0;Bottom;GNDIn
+3;;smtso-256-et;17.5088;-9.43468;0;Bottom;GNDOut
+4;1000µF;300 mil [THT, electrolytic];61.9588;-24.6747;135;Bottom;C1 1kµF
+5;;smtso-256-et;126.729;-70.3947;0;Bottom;Vin
+6;;smtso-256-et;12.4288;-19.5947;90;Bottom;GNDOut
+7;;smtso-256-et;12.4288;-47.5347;0;Bottom;VIn1
+8;;;107;-18.3632;-90;Bottom;ESP8266
+9;;smtso-256-et;35.2888;-9.43468;0;Bottom;VOut
+10;;smtso-256-et;35.2888;-70.3947;90;Bottom;VIn
+11;1000µF;300 mil [THT, electrolytic];36.5588;-39.9147;180;Bottom;C4 1kµF1
+12;1000µF;300 mil [THT, electrolytic];83.7029;-47.6888;-45;Bottom;C3 1kµF
+13;100;THT;103.869;-37.3747;180;Bottom;R100
+14;;smtso-256-et;20.0488;-70.3947;90;Bottom;GNDIn
+15;;smtso-256-et;108.949;-70.3947;0;Bottom;Vout
+16;;;101.329;-16.9605;0;Bottom;Via1
+17;;smtso-256-et;12.4288;-34.8347;0;Bottom;VOut1
+18;;smtso-256-et;68.3088;-70.3947;180;Bottom;GNDOut
+19;;smtso-256-et;75.9288;-9.43468;180;Bottom;GNDIn
+20;;smtso-256-et;55.6088;-9.43468;-90;Bottom;VIn
+21;1000µF;300 mil [THT, electrolytic];55.4547;-57.8488;-90;Bottom;C2 1kµF
+22;;smtso-256-et;50.5288;-70.3947;90;Bottom;VOut
+23;;smtso-256-et;129.269;-37.3747;0;Bottom;DOut
+24;;smtso-256-et;88.6288;-70.3947;0;Bottom;GNDOut
