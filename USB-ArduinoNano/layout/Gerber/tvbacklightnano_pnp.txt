@@ -1,0 +1,33 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=tvbacklightnano
+*Date=00:04:39
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;smtso-256-et;20.0488;-7.20776;0;Bottom;VOut
+2;;smtso-256-et;42.9088;-60.5478;0;Bottom;Vout
+3;;;50.5288;-32.5993;0;Bottom;Arduino Uno
+4;;smtso-256-et;30.2088;-7.20776;0;Bottom;GNDOut
+5;1000µF;300 mil [THT, electrolytic];21.3188;-37.6878;-180;Bottom;C2 1kµF
+6;470;THT;37.8288;-17.3678;-90;Bottom;R470
+7;;smtso-256-et;53.0688;-60.5478;0;Bottom;Vin
+8;;smtso-256-et;7.34878;-52.9278;0;Bottom;GNDOut
+9;;smtso-256-et;9.88878;-7.20776;0;Bottom;VIn
+10;1000µF;300 mil [THT, electrolytic];31.4788;-50.3878;-1.27222e-14;Bottom;C3 1kµF
+11;;smtso-256-et;7.34878;-24.9878;0;Bottom;GNDIn
+12;;smtso-256-et;7.34878;-42.7678;0;Bottom;VOut
+13;;smtso-256-et;40.3688;-7.20776;0;Bottom;DOut
+14;;smtso-256-et;7.34878;-35.1478;0;Bottom;VIn
+15;1000µF;300 mil [THT, electrolytic];24.9747;-19.7537;135;Bottom;C1 1kµF
+16;;smtso-256-et;12.4288;-60.5478;0;Bottom;GNDOut
+17;;smtso-256-et;22.5888;-60.5478;0;Bottom;GNDIn
+18;;smtso-256-et;7.34878;-17.3678;0;Bottom;GNDIn

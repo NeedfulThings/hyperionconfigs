@@ -1,0 +1,4 @@
+  * 3 x1000 µF capacitor
+  * Arduino Nano
+  * 470Ω Resistor 
+  * Receptacle socket for the nano
