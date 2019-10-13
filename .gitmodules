@@ -10,15 +10,12 @@
 [submodule "tools/environments/stm32"]
 	path = tools/environments/stm32
 	url = https://github.com/rogerclarkmelbourne/Arduino_STM32.git
-#[submodule "tools/arduino-makefile/arduino-mk"]
-#  path = tools/arduino-makefile/arduino-mk
-#  url = https://github.com/sudar/Arduino-Makefile.git
-#[submodule "tools/arduino-makefile/arduino-mk-esp"]
-#  path = tools/arduino-makefile/arduino-mk-esp
-#  url = https://github.com/andreasberg/Arduino-Makefile-ESP.git
-#[submodule "tools/arduino-makefile/make-esp-arduino"]
-#  path = tools/arduino-makefile/make-esp-arduino
-#  url = https://github.com/plerup/makeEspArduino.git
 [submodule "tools/arduino-makefile/arduino-mk"]
 	path = tools/arduino-makefile/arduino-mk
 	url = https://github.com/sudar/Arduino-Makefile.git
+[submodule "tools/arduino-makefile/arduino-mk-esp"]
+	path = tools/arduino-makefile/arduino-mk-esp
+	url = https://github.com/andreasberg/Arduino-Makefile-ESP.git
+[submodule "tools/arduino-makefile/make-esp-arduino"]
+	path = tools/arduino-makefile/make-esp-arduino
+	url = https://github.com/plerup/makeEspArduino.git
