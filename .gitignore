@@ -1,2 +1,10 @@
 .DS_Store
 /IGNORE ME
+/.idea
+*/hyperion_ws2812/build-*
+.venv/lib/*/
+.venv/bin/*
+venv/bin/*
+/~
+/.npm
+/USB-ArduinoUno/dist

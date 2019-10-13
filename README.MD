@@ -1,3 +1,4 @@
+
 # Hyperion uses framegrabber on Kodi
 * Drives **WS2812B** Led stripes
 * **45 LEDS** activated 170 incative to be activated
@@ -8,7 +9,50 @@
 ---
 
 # Get the code
- `git clone --recurse-submodules git@github.com:NeedfulThings/hyperionconfigs.git`
+```BASH 
+git clone --recurse-submodules
+git@github.com:NeedfulThings/hyperionconfigs.git
+```
+
+# Setup the dev environment
+ 
+We are using direnv to get a clean environment that can have oher versions than the rest of your system. It's required to set it up first and configure well.
+
+## Install direnv
+
+### Linux
+```BASH
+curl -qfsSL https://github.com/direnv/direnv/releases/download/v2.19.0/direnv.linux-amd64 -o direnv
+chmod +x direnv
+sudo mv direnv /usr/local/bin
+```
+
+### macOS
+```BASH
+brew install dirvenv
+```
+
+## Hook it up in your shell
+### BASH
+*add the following line to your `~/.bashrc` file*
+```BASH
+eval "$(direnv hook bash)"
+```
+### ZSH
+*add the following line to your `~/.zshrc` file*
+```BASH
+eval "$(direnv hook zsh)"
+```
+### Other shells
+
+*Take a look [here](https://github.com/direnv/direnv/blob/master/docs/hook.md)*
+
+## Setup the dev environment by just running
+```BASH
+./start.sh
+```
+in the Project root
+
 
 ---
 
@@ -26,13 +70,13 @@ Folder *USB-ArduinoUno*
 
 ## Install
 
-###`hyperion.config.json`
+### `hyperion.config.json`
 
-copy the `hyperion.config.json` to your `/storage/.config` folder
+copy the `L45_Config/hyperion.config.json` to your `/storage/.config` folder
 
-###`WS2812B.ino`
+### `hyperion_ws2812.ino`
 
-Install the `WS2812B.ino` on your Arduino
+Install the `hyperion_ws2812.ino` on your Arduino. You can use the Makefile inside the folder by just running ```make upload```
 
 ---
 
@@ -48,19 +92,19 @@ Folder *USB-ArduinoNano*
 * Output to **USB Port** /ttyUSB0 
 * Colororder **grb**
 
-<img src="USB-ArduinoNano/assets/completedBoard.jpg" align="left" height="300" width="231">
+<img src="USB-ArduinoNano/assets/completedBoard.jpg" align="left" height="200" width="231">
 
 ## Install
 
-###`FS128_Config`
+### `FS128_Config`
 
 copy the `hyperion.config.json` to your `/storage/.config` folder
 
-###`hyperion_ws2812.ino`
+### `hyperion_ws2812.ino`
 
-Install the `hyperion_ws2812.ino` on your Arduino
+Install the `hyperion_ws2812.ino` on your Arduino. You can use the Makefile inside the folder by just running ```make upload```
 
-###`Hardware`
+### `Hardware`
 
 Take a look into the USB-ArduinoNano.md file to get more informations
 
@@ -77,11 +121,11 @@ Take a look into the USB-ArduinoNano.md file to get more informations
 
 ## Install
 
-###`hyperion.config.json`
+### `hyperion.config.json`
 
 Copy the `hyperion.config.json` to your `/storage/.config` folder
 
-###`WLED`
+### `WLED`
 
 Install from the submobule folder [Aircoookie](https://github.com/Aircoookie)'s [WLED](https://github.com/Aircoookie/WLED) 
 
@@ -101,15 +145,15 @@ Further Infos can be found in the [Wiki](htpps://github.com/Aircoookie/WLED/wiki
 
 ## Install
 
-###`hyperion.config.json`
+### `hyperion.config.json`
 
 copy the `hyperion.config.json` to your `/storage/.config` folder
 
-###`SD` 
+### `SD` 
 
 copy the `config.txt` from `SD` or at least the last lines below the `End of default configuration Block` directly to your **SD Card** while it's **NOT** running in the pi
 
-###`etc`
+### `etc`
 
 copy the file `snd-blacklist.conf` to your **running** pi `/etc/modprobe.d/` - The easiest way copy etc to your / 
 
