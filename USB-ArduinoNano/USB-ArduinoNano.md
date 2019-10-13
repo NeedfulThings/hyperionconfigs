@@ -1,8 +1,8 @@
 # Hyperion via USB direct to Arduino Nano
 
 ## Flash Arduino
-File for Arduino IDE located in `hyperion_ws2812`
-
+Just run `make upload` in the folder. If you get some errors you might want to change something in the Makefile and run it again.
+To remove the dist folder just run `make clean`
 
 ## Setup Hyperion on PI
 The `hyperion.config.json` file in `F128_Config` is setup for a 128 LED Background with no bottom.
@@ -25,9 +25,9 @@ I created a pcb for the Arduino Nano setup with 3 Power Injectors, +/- each prot
 
 If you need to build your hardware, go to layout, there you can find:
 
- * Fritzing file `tvbacklightnano.fzz` 
+* Fritzing file `tvbacklightnano.fzz` 
 
- <img src="assets/tvbacklightnano_Steckplatine.jpg" align="left" height="63" width="175">
+<img src="assets/tvbacklightnano_Steckplatine.jpg" align="left" height="63" width="175">
 
  * Gerber to get my PCB Layout manufactured
 
@@ -37,12 +37,12 @@ If you need to build your hardware, go to layout, there you can find:
 ### Real PCBs
  <img src="assets/emptyboards.jpg" align="left" height="100" width="200">
 
- ### Complete assebled Board
+### Complete assebled Board
  <img src="assets/completedBoard.jpg" align="left" height="300" width="231">
 
 ### Parts list
-  * 3 x1000 µF capacitor
-  * Arduino Nano
-  * 470Ω Resistor 
-  * Receptacle socket for the nano
 
+* 3 x1000 µF capacitor
+* Arduino Nano
+* 470Ω Resistor
+* Receptacle socket for the nano

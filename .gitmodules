@@ -1,3 +1,21 @@
-[submodule "UDP-ESP8266/WLED"]
-	path = UDP-ESP8266/WLED
-	url = git@github.com:Aircoookie/WLED.git
+[submodule "tools/WLED"]
+	path = tools/WLED
+	url = https://github.com/Aircoookie/WLED.git
+[submodule "tools/environments/esp8266"]
+	path = tools/environments/esp8266
+	url = https://github.com/esp8266/Arduino.git
+[submodule "tools/environments/esp32"]
+	path = tools/environments/esp32
+	url = https://github.com/espressif/arduino-esp32.git
+[submodule "tools/environments/stm32"]
+	path = tools/environments/stm32
+	url = https://github.com/rogerclarkmelbourne/Arduino_STM32.git
+[submodule "tools/arduino-makefile/arduino-mk"]
+	path = tools/arduino-makefile/arduino-mk
+	url = https://github.com/sudar/Arduino-Makefile.git
+[submodule "tools/arduino-makefile/arduino-mk-esp"]
+	path = tools/arduino-makefile/arduino-mk-esp
+	url = https://github.com/andreasberg/Arduino-Makefile-ESP.git
+[submodule "tools/arduino-makefile/make-esp-arduino"]
+	path = tools/arduino-makefile/make-esp-arduino
+	url = https://github.com/plerup/makeEspArduino.git
