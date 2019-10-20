@@ -1,0 +1,9 @@
+[Unit]
+[Service]
+Type=forking
+ExecStart=/usr/bin/enigmalight
+NonBlocking=true
+NotifyAccess=main
+
+[Install]
+WantedBy=multi-user.target
