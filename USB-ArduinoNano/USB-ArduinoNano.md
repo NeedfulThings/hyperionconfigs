@@ -27,24 +27,21 @@ If you need to build your hardware, go to layout, there you can find:
 
  * Fritzing file `tvbacklightnano.fzz`
  * Gerber to get my PCB Layout manufactured
- <img src="assets/tvbacklightnano_Steckplatine.jpg" align="left" height="63" width="175">
+ <img src="assets/tvbacklightnano_Steckplatine.jpg" height="63" width="175" />
 
- \
 ---------------------------------------
 ### Rendered from Gerber
-<img src="assets/top.png" align="left" height="100" width="100"> <img src="assets/bottom.png" align="left" height="100" width="100">
+<img src="assets/top.png" align="left" height="100" width="100"/> 
+<img src="assets/bottom.png"height="100" width="100" />
 
- \
 ---------------------------------------
 ### Real PCBs
-<img src="assets/emptyboards.jpg" align="left" height="100" width="200">
+<img src="assets/emptyboards.jpg" height="100" width="200" />
 
- \
 ---------------------------------------
 ### Complete assebled Board
-<img src="assets/completedBoard.jpg" align="left" height="300" width="231">
+<img src="assets/completedBoard.jpg" height="300" width="231" />
 
- \
 ---------------------------------------
 ### Parts list
   * 3 x1000 µF capacitor
