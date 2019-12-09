@@ -18,7 +18,7 @@ Go to the hyperion.config.json in F128_Config and replace the lines 96 - 743 wit
 Et voila, you are ready to go.
 Put the file on your pi in `/storage/.config/`
 
-\s\s
+ 
 ## PCB & Breadboard
 
 I created a pcb for the Arduino Nano setup with 3 Power Injectors, +/- each protected by a 1000 µF capacitor leading to 3 Power Outs +/- and one Dataline connected to the D11 Port of the Nano and protected with a 470Ω Resistor.
@@ -29,22 +29,22 @@ If you need to build your hardware, go to layout, there you can find:
  * Gerber to get my PCB Layout manufactured
  <img src="assets/tvbacklightnano_Steckplatine.jpg" align="left" height="63" width="175">
 
-\s\s
+ 
 ---------------------------------------
 ### Rendered from Gerber
 <img src="assets/top.png" align="left" height="100" width="100"> <img src="assets/bottom.png" align="left" height="100" width="100">
 
-\s\s
+ 
 ---------------------------------------
 ### Real PCBs
 <img src="assets/emptyboards.jpg" align="left" height="100" width="200">
 
-\s\s
+ 
 ---------------------------------------
 ### Complete assebled Board
 <img src="assets/completedBoard.jpg" align="left" height="300" width="231">
 
-\s\s
+ 
 ---------------------------------------
 ### Parts list
   * 3 x1000 µF capacitor
