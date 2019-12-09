@@ -31,19 +31,22 @@ If you need to build your hardware, go to layout, there you can find:
 <img src="assets/tvbacklightnano_Steckplatine.jpg" align="left" height="63" width="175">
 
 
- * Gerber to get my PCB Layout manufactured
+* Gerber to get my PCB Layout manufactured
 
 
 ### Rendered from Gerber
+
 
 <img src="assets/top.png" align="left" height="100" width="100"> <img src="assets/bottom.png" align="left" height="100" width="100">
  
 
 ### Real PCBs
+
 <img src="assets/emptyboards.jpg" align="left" height="100" width="200">
 
 
 ### Complete assebled Board
+
 <img src="assets/completedBoard.jpg" align="left" height="300" width="231">
 
 
