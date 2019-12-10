@@ -1,0 +1,58 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=tvbacklightesp8266_v1.3
+*Date=01:55:32
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;smtso-256-et;63.1347;-66.5377;-180;Bottom;GNDOut
+2;;smtso-256-et;7.25471;-36.0577;0;Bottom;VOut1
+3;;;14.8747;-20.8177;0;Bottom;Hole5
+4;;smtso-256-et;7.25471;-61.4577;0;Bottom;GNDIn1
+5;;smtso-256-et;37.7347;-66.5377;90;Bottom;VIn
+6;;smtso-256-et;75.8347;-66.5377;0;Bottom;GNDOut
+7;;smtso-256-et;30.1147;-8.11769;-90;Bottom;VIn
+8;;smtso-256-et;85.9947;-66.5377;0;Bottom;Vout
+9;470;THT;78.3747;-33.5177;180;Bottom;R470
+10;1000µF;300 mil [THT, electrolytic];83.6088;-48.9118;-45;Bottom;C3 1kµF
+11;;smtso-256-et;50.4347;-66.5377;90;Bottom;VOut
+12;;kps-1290;102.735;-21.1077;-90;Bottom;U1
+13;;;68.2146;-15.6435;0;Bottom;Via1
+14;;;73.8855;-17.0462;-90;Bottom;ESP8266
+15;;;36.5118;-8.21177;0;Bottom;IMG2
+16;1000µF;300 mil [THT, electrolytic];28.8447;-23.3577;135;Bottom;C0 1kµF
+17;;;102.222;-14.1384;0;Bottom;TXT1
+18;;;31.4318;-67.9488;0;Bottom;IMG2
+19;1000µF;300 mil [THT, electrolytic];40.2747;-50.0277;-90;Bottom;C1 1kµF1
+20;;smtso-256-et;98.6947;-63.9977;90;Bottom;Vin
+21;;;103.116;-35.3521;-90;Bottom;TXT1
+22;;smtso-256-et;7.25471;-8.11769;0;Bottom;GNDOut
+23;;;70.7547;-38.5977;0;Bottom;Hole8
+24;;;73.9373;-16.9659;0;Bottom;IMG1
+25;;sj_2s-no;37.7347;-36.5077;90;Bottom;bypass C1
+26;;smtso-256-et;25.0347;-66.5377;90;Bottom;GNDIn
+27;;;78.3747;-23.3577;0;Bottom;Hole3
+28;;;55.5147;-38.5977;0;Bottom;Hole4
+29;;;14.8747;-66.5377;0;Bottom;Hole6
+30;;;27.5747;-38.5977;0;Bottom;Hole7
+31;;smtso-256-et;17.4147;-8.11769;0;Bottom;VOut
+32;;smtso-256-et;7.25471;-48.7577;0;Bottom;VIn1
+33;;smtso-256-et;98.6947;-51.2977;90;Bottom;GNDIn
+34;1000µF;300 mil [THT, electrolytic];63.1347;-50.0277;-90;Bottom;C2 1kµF
+35;;;101.235;-8.11769;0;Bottom;Hole2
+36;;smtso-256-et;42.8147;-8.11769;180;Bottom;GNDIn
+37;;smtso-256-et;7.25471;-23.3577;90;Bottom;GNDOut
+38;;sj_2s-no;72.8447;-51.2977;0;Bottom;bypass C3
+39;;smtso-256-et;98.6947;-36.0577;0;Bottom;DOut
+40;;sj_2s-no;50.8847;-51.2977;180;Bottom;bypass C2
+41;;;101.235;-43.6777;0;Bottom;Hole1
+42;;;5.61879;-55.5451;0;Bottom;IMG2
+43;;;99.2592;-57.2244;0;Bottom;IMG2
