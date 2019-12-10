@@ -1,0 +1,52 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=tvbacklight_v2.01
+*Date=02:34:28
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;smtso-256-et;57.7353;-86.0012;90;Bottom;GNDIn
+2;;smtso-256-et;57.7353;-98.7012;90;Bottom;Vin
+3;;1x12_machine-pin-header_lock.004;38.6853;-131.823;0;Bottom;U6
+4;;switch-spdt_kit;52.6553;-144.421;-90;Bottom;U1
+5;;1x12_machine-pin-header_lock.004;38.6853;-136.7;180;Bottom;U5
+6;;smtso-256-et;57.7353;-73.3012;180;Bottom;VIn
+7;;smtso-256-et;6.93525;-98.7012;-90;Bottom;Vout
+8;;1x12_machine-pin-header_lock.004;38.6853;-129.08;180;Bottom;JP3
+9;;1x12_machine-pin-header_lock.004;38.6853;-126.54;180;Bottom;JP4
+10;;smtso-256-et;57.7353;-60.6012;-90;Bottom;GNDIn
+11;;1x12_machine-pin-header_lock.004;38.6853;-111.3;180;Bottom;JP6
+12;;smtso-256-et;6.93525;-9.80124;90;Bottom;GNDOut
+13;;smtso-256-et;6.93525;-73.3012;0;Bottom;VOut
+14;330;1206 [SMD];60.2753;-122.551;-90;Top;R330
+15;1000µF;300 mil [THT, electrolytic];34.8753;-44.0912;-90;Bottom;C3 1kµF1
+16;;1x12_machine-pin-header_lock.004;38.6853;-134.16;180;Bottom;U4
+17;;smtso-256-et;6.93525;-60.6012;90;Bottom;GNDOut
+18;;smtso-256-et;9.47525;-144.421;90;Bottom;DOut
+19;;1206 [SMD];60.2753;-132.711;-90;Top;Off
+20;;smtso-256-et;6.93525;-22.5012;0;Bottom;VOut1
+21;;;36.1453;-32.6612;0;Bottom;Jumper3
+22;1000µF;300 mil [THT, electrolytic];34.8753;-18.6912;-90;Bottom;C4 1kµF
+23;;;36.1453;-58.0612;0;Bottom;Jumper2
+24;1000µF;300 mil [THT, electrolytic];34.8753;-69.4912;-90;Bottom;C2 1kµF
+25;;1x12_machine-pin-header_lock.004;36.1453;-113.84;180;Bottom;JP7
+26;;smtso-256-et;57.7353;-22.5012;180;Bottom;VIn1
+27;;;36.1453;-83.4612;0;Bottom;Jumper1
+28;470;1206 [SMD];15.5453;-139.341;180;Bottom;R470
+29;;1x12_machine-pin-header_lock.004;31.0653;-124;180;Bottom;JP5
+30;;1x12_machine-pin-header_lock.004;38.6853;-108.76;180;Bottom;JP2
+31;;smtso-256-et;57.7353;-47.9012;0;Bottom;VIn
+32;1000µF;300 mil [THT, electrolytic];34.8753;-94.8912;-90;Bottom;C1 1kµF
+33;;smtso-256-et;6.93525;-86.0012;90;Bottom;GNDOut
+34;;smtso-256-et;6.93525;-47.9012;-90;Bottom;VOut
+35;;smtso-256-et;57.7353;-9.80124;-90;Bottom;GNDIn
+36;;smtso-256-et;6.93525;-35.2012;-90;Bottom;GNDOut
+37;;smtso-256-et;57.7353;-35.2012;180;Bottom;GNDIn
