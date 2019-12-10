@@ -8,3 +8,6 @@ venv/bin/*
 /~
 /.npm
 /USB-ArduinoUno/dist
+PI-Kodi-Hyperion/videos/*.mp4
+/Hyperion Config
+/PI-Kodi-Hyperion/videos
